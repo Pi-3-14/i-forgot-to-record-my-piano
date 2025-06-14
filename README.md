@@ -7,3 +7,6 @@ Note: This only records on one device.
 You can open the generated .mid files in applications like Cakewalk or Windows Media Player.
 
 This code was created with the assistance of ChatGPT and Claude. It's free to use for everyone via Apache 2.0.
+
+
+TO MAKE THIS RUN AT ALL TIMES (STARTUP APPS): Create a shortcut to `AutoMIDIListener.bat`, then go to `shell:startup` in the file explorer, and move the shortcut there. Click on the shortcut to activate it, and it will also activate every time you shut down/restart your computer.
