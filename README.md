@@ -1,2 +1,9 @@
 # i-forgot-to-record-my-piano
 An application in Python that runs in the background and records MIDI input at all times. If you play something on your piano and forgot to record it, this app captures MIDI files (max. 5 min per file) so you will never lose your ideas, even if you forgot to record them. Press C2 3 times consecutively (note 36) to open the logs and also force save.
+
+This is pretty robust and can handle the piano disconnecting and reconnecting, and runs even when a piano isn't connected at first (it will wait for one to connect)
+Note: This only records on one device.
+
+You can open the generated .mid files in applications like Cakewalk or Windows Media Player.
+
+This code was created with the assistance of ChatGPT and Claude. It's free to use for everyone via Apache 2.0.
